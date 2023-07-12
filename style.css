@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&family=Poppins:ital,wght@0,200;0,400;0,800;1,100&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    min-height: 100px;
+}
+/* beginning navbar */
+nav{
+    
+     display: flex;
+     flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0.3rem;
+    align-items: center;
+    background-color:whitesmoke;
+    position: fixed;
+    width: 100%; 
+}
+nav ul:first-of-type{
+    display: flex;
+    gap: 2rem;
+    margin-right: 5rem;
+    align-items: center;
+    list-style: none;
+   
+    
+}
+nav h1{
+    font-size: 2.5rem;
+}
+nav a{
+    text-decoration: none;
+    color: #333333;
+    text-transform:capitalize;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav a:hover{
+    color:brown;
+    transition:2ms;
+}
+
+#search-icon{
+    border-right:1px solid #333333;
+    padding: 0.3rem  1rem 0  0;
+    margin-right:  0; 
+}
+#shopping-icon{
+   padding: 0;
+   
+}
+ #second-ul{
+  gap: 1rem;
+    
+} 
+ ul span{
+    padding: 1px 4px ;
+    border-radius: 50%;
+    border:1px solid ;
+    text-align: center;
+    margin-left:0rem ;
+} 
+/* beginning of hero */
+.hero{
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image:linear-gradient(rgba(201, 88, 12, 0.7), rgba(20, 10, 10, 0.7)), url(./images/clothes1.jpg);
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  background-position: center;
+  background-attachment: fixed;
+  
+}
+.hero hr{
+    width: 50px;
+    margin-inline: auto;
+}
+.hero-text {
+    text-decoration: none; 
+    color:black;
+
+  
+}
+.hero h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+.hero p{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+a{
+    color: white;
+}
+
+/*  biginning of main*/
+.main-sec{
+    background-color: White;
+    box-sizing: border-box;
+    overflow:none;
+  }
+  .main-sec .wrapper{
+    gap: 2.5rem;
+    padding: 3.5rem 0;
+  }
+  .individual-div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  .individual-div .img-div{
+    background-color: brown;
+    width: 4.5rem;
+    height: 4.5rem;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem;
+  }
+  .individual-div i{
+    font-size: 2rem;
+  }
+  .text-div h6{
+    font-size: 1.2rem;
+    font-family: 'lato',sans-serif;
+    font-weight: 800;
+  }
+  .text-div p{
+    font-size:  1.2rem;
+    margin-top: 0.7rem;
+  }
+  
